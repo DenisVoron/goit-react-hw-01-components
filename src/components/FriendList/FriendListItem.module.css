@@ -4,12 +4,28 @@
     width: 300px;
     height: 50px;
 
-    justify-content: center;
-
     margin-bottom: 10px;
 
     padding: 10px;
 
     border: solid 2px;
     border-radius: 4px;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.avatar {
+    margin-right: 20px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 18px;
 }
