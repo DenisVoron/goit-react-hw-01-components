@@ -5,7 +5,7 @@ import css from './FriendListItem.module.css';
 export const FriendListItem = ({avatar, name, status}) => {
     return (
         <li className={css.item}>
-            <span className={css.status} style={status? {backgroundColor: "green"}:{backgroundColor: "red"}}></span>
+            <span className={css.status} style={status? {backgroundColor: "green"}:{backgroundColor: "red"}} />
             <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
             <p className={css.name}>{name}</p>
         </li>
